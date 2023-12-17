@@ -6,6 +6,14 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors:{
+      main:'#0c1113'
+    }
+    ,
+    fontFamily: {
+    roboto: ['Roboto']
+    }
+    ,
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -14,5 +22,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: []
 }

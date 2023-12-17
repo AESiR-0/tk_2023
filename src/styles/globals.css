@@ -1,11 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.cursor {
+  position: fixed;
+  border-radius: 50%;
+  top: 0;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 10000;
+  mix-blend-mode: difference;
+  background: #f5f5f5;
+  height: 15px;
+  width: 15px;  
+}
+
+.cursor-text{
+  font-size: larger;
+  font-weight: bold;
+
+}
+
+
+* {
+background-color: #0c1113;
+cursor: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,6 +36,11 @@
   }
 }
 
+*::selection{
+  background-color: whitesmoke;
+  color: black;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +49,56 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    overflow-x: hidden;
+    cursor:none;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: thin;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  line-height: 1rem;
+  align-items: center;
+}
+
+.nav > div > div > a{
+  transition: ease-in-out 100ms;
+  background: transparent;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .nav{
+    display: none;
+  }
+  .hamburger{
+    background: transparent;
+    display: block;
+    height: 10vh;
+  }
+
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.container {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.card {
+  flex-shrink: 0;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position :center center; 
 }
