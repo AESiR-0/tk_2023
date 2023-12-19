@@ -5,7 +5,7 @@ export default function Cursor() {
     useEffect(() => {
         const cursor  = document.querySelector('.cursor')
         const cursorText = document.querySelector('.cursor-text') 
-        const text = document.querySelectorAll('a, p, h1,h2, span')
+        const text = document.querySelectorAll('a, p, h1, h2, span')
 
         const onMouseMove = (e) => {
             const {clientX, clientY} = e

@@ -3,13 +3,13 @@ import React from 'react'
 export default function About() {
   return (
     <>
-     
-     <section className="h-screen w-screen">
-        <div className="flex justify-between items-center px-16">
-          <h1 className="text-8xl font-bold max-w-sm uppercase text-center ">
-            About Us{" "}
-          </h1>
-          <p className="text-xl mr-20 text-justify  max-w-lg">
+     <div className="flex flex-col h-screen w-screen justify-center gap-10 items-center ">
+
+     <h1 className="text-5xl font-bold md:text-6xl sm:text-3xl  max-w-l uppercase text-center ">
+            About Us
+          </h1> 
+               
+          <p className="text-justify lg:text-2xl md:text-2xl sm:text-xl max-w-5xl mb-10  ">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
             harum voluptate aperiam, modi a quo, esse nemo itaque animi
             consequatur, voluptatibus sed reiciendis eius eveniet alias odit
@@ -23,7 +23,7 @@ export default function About() {
             consectetur quae?
           </p>
         </div>
-      </section> 
+     
     </>
   )
 }
