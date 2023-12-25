@@ -74,6 +74,9 @@ body {
   .nav{
     display: none;
   }
+  .main-wrapper{
+    display: none;
+  }
   .hamburger{
     background: transparent;
     display: block;

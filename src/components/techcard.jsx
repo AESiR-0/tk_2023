@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function NonCard() {
+export default function Tech() {
   return (
-    <div className='main-wrapper py-10'>
-    <div className="text-4xl font-semibold flex justify-center items-center mb-20">Non Tech Events</div>
+    <>
+         <div className='main-wrapper py-10'>
+    <div className="text-4xl font-semibold flex justify-center items-center mb-20">Tech Events</div>
     <div className=" h-screen w-screen px-40 grid grid-cols-3 gap-20 grid-flow-row  ">
      <h4 className='w-fit' href="https://www.mythrillfiction.com/the-dark-rider" alt="Mythrill" target="_blank">
   <div className="card">
@@ -71,6 +72,7 @@ export default function NonCard() {
 
 
 
-    </div>
+    </div> 
+    </>
   )
 }

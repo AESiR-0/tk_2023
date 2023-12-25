@@ -6,7 +6,8 @@ import gsap from "gsap";
 import Cursor from "@/components/cursor";
 import Glimpses from "@/components/glimpses";
 import Hero from "@/components/hero";
-import Card from "@/components/cards";
+import NonCard from "@/components/cards";
+import Tech from "@/components/techcard";
 
 export default function Home() {
   return (
@@ -24,7 +25,10 @@ export default function Home() {
       <Meet />
       </section>
       <section className="h-screen w-screen">
-      <Card />
+      <NonCard />
+      </section>
+      <section className="h-screen w-screen">
+      <Tech />
       </section>
       {/* <Glimpses/> */}
     </>
