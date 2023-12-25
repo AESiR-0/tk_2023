@@ -9,11 +9,25 @@
   top: 0;
   justify-content: center;
   pointer-events: none;
-  z-index: 10000;
+  z-index: 1000;
   mix-blend-mode: difference;
   background: #f5f5f5;
   height: 15px;
   width: 15px;  
+}
+
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  opacity: 1;
+  transition: ease-in-out 350ms;
 }
 
 .cursor-text{
@@ -24,7 +38,7 @@
 
 
 * {
-background-color: hsl(197, 23%, 6%);
+
 cursor: none;
 }
 
@@ -108,7 +122,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #191c29;
+  background: #0c1113;
 }
 .card {
   width: var(--card-width);
@@ -211,4 +225,54 @@ body {
 
 .card:hover .title{
   opacity: 0.3;
+}
+
+
+.inputBox{
+  position: relative;
+  width: 250px;
+}
+
+.inputBox select{
+  background: #0c1113;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+  border: 1px white solid;
+}
+
+.inputBox input {
+  font-weight:bold;
+  background: #0c1113;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  height: 40px;
+  border: 1px white solid;
+  width: 250px;
+}
+
+.inputBox span{
+  position: absolute;
+  transition: ease-in-out 350ms;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  font-size: 1.1rem;
+  padding: 10px;
+  color: rgb(255, 255, 255)  ;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span
+{
+  color: rgb(255, 255, 255);
+  transform:translateX(3px) translateY(-13px);
+  background: #0c1113;
+  padding: 0px 10px;
+  font-size: 1rem;
 }
