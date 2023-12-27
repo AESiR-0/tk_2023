@@ -9,7 +9,7 @@ export default function About() {
             About Us
           </h1> 
                
-          <p className="text-justify lg:text-2xl md:text-2xl sm:text-xl max-w-4xl mb-10  ">
+          <p className="text-justify text-[30px] max-w-6xl mb-10  ">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
             harum voluptate aperiam, modi a quo, esse nemo itaque animi
             consequatur, voluptatibus sed reiciendis eius eveniet alias odit
