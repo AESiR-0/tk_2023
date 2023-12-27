@@ -131,10 +131,6 @@ body {
 }
 
 
-.card {
-  width: 300px;
-  height: 200px;
-}
 
 
 :root {
@@ -225,6 +221,11 @@ body {
 .card:hover .wrapper::after {
   height: 120px;
 }
+
+.card-glimpses{
+  scale: 0.9;
+}
+
 .title {
   width: 100%;
   transition: transform 0.5s;
@@ -311,8 +312,8 @@ body {
   margin-top: 2rem;
   display: grid;
   height: 100vh;
-
-  grid-template-columns: repeat(3, minmax(500px, 1fr));
+  margin: 5px 0 5px 0;
+  grid-template-columns: repeat(3, minmax(500px, 0.9fr));
 }
 .gallery img {
   width: 100%;
@@ -330,7 +331,7 @@ body {
 .gallery .gallery-item {
   transition: grid-row-start 300ms linear;
   transition: transform 300ms ease;
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
   height: auto;
   cursor: pointer;
 }

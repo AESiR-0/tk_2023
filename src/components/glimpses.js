@@ -16,7 +16,7 @@ export default function Glimpses() {
               <div className="content">
               <img
                 src={src}
-                className="card"
+                className="card-glimpses"
               />
             </div>
           </div>
