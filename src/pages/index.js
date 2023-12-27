@@ -32,7 +32,7 @@ export default function Home() {
       <section id="about" className="h-screen w-screen">
         <About />
       </section>
-      <section id="meet" className="h-screen w-screen">
+      <section id="meet" className="h-screen mb-20 w-screen">
         <Meet />
       </section>
       {/* <section id="events" className="h-screen w-screen event-text lg:mb-48">
