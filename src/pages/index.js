@@ -6,10 +6,21 @@ import Cursor from "@/components/cursor";
 import Glimpses from "@/components/glimpses";
 import Hero from "@/components/hero";
 import NonCard from "@/components/cards";
+import Head from "next/head";
 import Footer from "@/components/footer";
 import ShootingStars from "@/components/ShootingStars";
 export default function Home() {
   return (
+    <>
+    <Head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    
+  </Head>
+
+
     <div className="home">
       <Cursor />
       <section className="h-screen w-screen">
@@ -112,5 +123,6 @@ export default function Home() {
         <Footer />
       </section>
     </div>
+    </>
   );
 }
