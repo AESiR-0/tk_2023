@@ -9,7 +9,7 @@ export default function NonCard(props) {
   }
   return (
     <div className="main-wrapper py-10">
-      <div className=" h-screen w-screen px-40 grid grid-cols-3 gap-20 grid-flow-row  ">
+      <div className="   ">
         <h4
           className="w-fit"
           href="https://www.mythrillfiction.com/the-dark-rider"
@@ -36,11 +36,11 @@ export default function NonCard(props) {
           </div>
         </h4>
         {modal && (
-          <div className="h-screen  modal ">
-            <div className="absolute h-80 w-80">
+          <div className="h-screen   modal ">
+            <div className="absolute -mt-10 h-80 w-80">
                 <MdClose
                   onClick={toggleModal}
-                  className="h-10 w-10 z-0 mt-5  text-white"
+                  className="h-10 w-10 top-20 relative z-0   text-white"
                 />
 
               <div className="flex gap-3 flex-col jusitfy-center align-center">

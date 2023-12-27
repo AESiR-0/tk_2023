@@ -9,15 +9,17 @@ export default function Glimpses() {
     './glimpses/1 (6).jpg']
     return (
         <>
-          <div className="container">
+            <div className="text-center text-4xl font-semibold text-uppercase text-secondary"> Glimpses of previous Events </div>
+            <div className="gallery h-screen w-screen" id="gallery">
             {images.map(src => (
-              <div
-                key={src}
+              <div className="gallery-item">
+              <div className="content">
+              <img
+                src={src}
                 className="card"
-                style={{
-                  backgroundImage: `url(${src})`
-                }}
               />
+            </div>
+          </div>
             ))}
           </div>
         </>
