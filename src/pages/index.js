@@ -8,6 +8,7 @@ import Hero from "@/components/hero";
 import NonCard from "@/components/cards";
 import Head from "next/head";
 import Footer from "@/components/footer";
+import ShootingStars from "@/components/ShootingStars";
 
 export default function Home() {
 
@@ -20,7 +21,7 @@ export default function Home() {
     />
     
   </Head>
-
+    <ShootingStars/>
 
     <div className="home">
       <Cursor />

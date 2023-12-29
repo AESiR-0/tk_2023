@@ -9,21 +9,19 @@ export default function About() {
         </h1>
 
         <p className="text-justify about text-[25px] px-10 max-w-7xl overflow-scroll  ">
-          TK stands for Tech Kaushaliya, and it represents an inclusive event
-          where individuals can participate by registering for a range of
-          activities. Tech Kaushaliya (TK) is an exciting event organized by
-          students of Rollwala Computer Center. It's a combination of tech and
-          non-tech events that provide a unique platform for participants to
-          showcase their skills and interests. <br />
-          Tech Kaushalya 2024 is not just a fest; it's a battleground for tech
-          warriors seeking victory, recognition, and the sweet taste of triumph.
-          Whether you're a seasoned competitor, a coding prodigy, or simply
-          someone with a competitive spirit, we invite you to join us in this
-          exhilarating journey.
-          <br />
-          Gear up for an electrifying experience of competitiveness, skill
-          mastery, and unbridled excitement at Tech Kaushalya 2024. Let
-          the games begin!
+          Welcome to Tech Kaushalya 2024, where the thrill of competition meets
+          the pulse of technology in the vibrant setting of Gujarat University!
+          As one of the most anticipated college tech fests, Tech Kaushalya is
+          your arena to showcase your skills, compete with the best, and embrace
+          the spirit of intense rivalry. <br />
+          <br /> Tech Kaushalya 2024 is not just a fest; it's a battleground for
+          tech warriors seeking victory, recognition, and the sweet taste of
+          triumph. Whether you're a seasoned competitor, a coding prodigy, or
+          simply someone with a competitive spirit, we invite you to join us in
+          this exhilarating journey. <br />
+          <br /> Gear up for an electrifying experience of competitiveness,
+          skill mastery, and unbridled excitement at Tech Kaushalya 2024. Let
+          the games begin!
         </p>
       </div>
     </>

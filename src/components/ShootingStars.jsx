@@ -23,7 +23,7 @@ const ShootingStars = () => {
     createShootingStars();
   }, []);
 
-  return <div className="sky absolute"></div>;
+  return <div className="sky fixed"></div>;
 };
 
 export default ShootingStars;

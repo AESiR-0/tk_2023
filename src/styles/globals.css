@@ -100,7 +100,10 @@ body {
   align-items: center;
 }
 
-
+.sky{
+  width: 100%;
+  height: 100vh;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -346,7 +349,6 @@ body {
   .cursor{
     display:none;
   }
-  
 }
 
 .about{
