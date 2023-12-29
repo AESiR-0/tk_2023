@@ -8,10 +8,11 @@ import Hero from "@/components/hero";
 import NonCard from "@/components/cards";
 import Head from "next/head";
 import Footer from "@/components/footer";
-import ShootingStars from "@/components/ShootingStars";
+
 export default function Home() {
+
   return (
-    <>
+    <div className="whole" id="page-wrap">
     <Head>
     <meta
       name="viewport"
@@ -24,7 +25,6 @@ export default function Home() {
     <div className="home">
       <Cursor />
       <section className="h-screen w-screen">
-        <ShootingStars />
         <Nav />
 
         <Hero />
@@ -32,7 +32,7 @@ export default function Home() {
       <section id="about" className="h-screen w-screen">
         <About />
       </section>
-      <section id="meet" className="h-screen mb-20 w-screen">
+      <section id="meet" >
         <Meet />
       </section>
       {/* <section id="events" className="h-screen w-screen event-text lg:mb-48">
@@ -109,20 +109,20 @@ export default function Home() {
           />
         </div>
       </section> */}
-      <section className="h-screen w-screen">
+      <section className="h-screen mt-20 w-screen">
         <Glimpses />
       </section>
 
-      <section className="h-screen flex items-center justify-center w-screen">
+      <section id="events" className="h-screen flex items-center justify-center w-screen">
       <span className="text-5xl text-center  text-white font-bold">
           Events Coming Soon...
         </span>
       </section>
 
-      <section class="bg-white" id="footer">
+      <section className="bg-white" id="footer">
         <Footer />
       </section>
     </div>
-    </>
+    </div>
   );
 }

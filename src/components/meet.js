@@ -4,8 +4,8 @@ export default function Meet() {
   return (
     <>
 
-    <div className="container mx-auto px-6 md:px-12 xl:px-32">
-            <h2 className="text-center mb-20 text-3xl font-bold ">Meet our Team</h2>
+    <div className="container mx-auto overflow-scroll px-6 md:px-12 xl:px-32">
+            <h2 className="text-4xl font-bold md:text-6xl sm:text-5xl  max-w-l uppercase text-center mb-24 ">Meet our Team</h2>
         <div className="grid gap-12 items-center md:grid-cols-3">
             <div className="space-y-4  text-center">
                 <img className="w-64 h-64  mx-auto border-[5px] rounded-full object-cover  md:w-40 md:h-40 lg:w-64 lg:h-64" 
@@ -21,7 +21,7 @@ export default function Meet() {
                     src="./organizer_2.jpg" loading="lazy" width="800" height="1000" />
                 <div>
                     <h4 className="font-semibold text-2xl">Pratham Chellani</h4>
-                    <span className="font-[400] block text-sm text-gray-500">Chief Technical Officer</span>
+                    <span className="font-[400] block text-sm text-gray-500">Organizer</span>
                     <span className="font-[200] text-gray-500 text-sm"> +91 9664590100 </span>
                 </div>
             </div>
@@ -30,7 +30,8 @@ export default function Meet() {
                     src="./organizer_.jpg" loading="lazy" width="800" height="1000" />
                 <div>
                     <h4 className="font-semibold text-2xl">Muhammadumar Shaikh</h4>
-                    <span className="font-[400] block text-sm text-gray-500">Organzier</span>
+                    <span className="font-[400] block text-sm text-gray-500 ">Organzier</span>
+                    <span className="font-[200] text-gray-500 text-sm"> +91 9313190969 </span>
                 </div>
             </div>
         </div>
