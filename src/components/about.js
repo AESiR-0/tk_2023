@@ -8,20 +8,17 @@ export default function About() {
           About Us
         </h1>
 
-        <p className="text-justify about text-[25px] px-10 max-w-7xl overflow-scroll  ">
+        <p className="text-justify about text-[25px] px-10 max-w-7xl overflow-x-hidden overflow-y-scroll  ">
           Welcome to Tech Kaushalya 2024, where the thrill of competition meets
           the pulse of technology in the vibrant setting of Gujarat University!
           As one of the most anticipated college tech fests, Tech Kaushalya is
           your arena to showcase your skills, compete with the best, and embrace
           the spirit of intense rivalry. <br />
-          <br /> Tech Kaushalya 2024 is not just a fest; it's a battleground for
+          Tech Kaushalya 2024 is not just a fest; it's a battleground for
           tech warriors seeking victory, recognition, and the sweet taste of
           triumph. Whether you're a seasoned competitor, a coding prodigy, or
           simply someone with a competitive spirit, we invite you to join us in
-          this exhilarating journey. <br />
-          <br /> Gear up for an electrifying experience of competitiveness,
-          skill mastery, and unbridled excitement at Tech Kaushalya 2024. Let
-          the games begin!
+          this exhilarating journey. 
         </p>
       </div>
     </>

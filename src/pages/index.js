@@ -33,6 +33,11 @@ export default function Home() {
       <section id="about" className="h-screen w-screen">
         <About />
       </section>
+
+      <section className="h-screen mt-20 w-screen">
+        <Glimpses />
+      </section>
+
       <section id="meet" >
         <Meet />
       </section>
@@ -110,9 +115,7 @@ export default function Home() {
           />
         </div>
       </section> */}
-      <section className="h-screen mt-20 w-screen">
-        <Glimpses />
-      </section>
+
 
       <section id="events" className="h-screen flex items-center justify-center w-screen">
       <span className="text-5xl text-center  text-white font-bold">
