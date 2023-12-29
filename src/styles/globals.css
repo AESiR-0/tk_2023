@@ -343,6 +343,9 @@ body {
     grid-template-columns: repeat(1, minmax(50%, 1fr));
     margin-top: auto;
   }
+  .cursor{
+    display:none;
+  }
   
 }
 
