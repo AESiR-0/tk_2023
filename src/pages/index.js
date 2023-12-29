@@ -108,14 +108,14 @@ export default function Home() {
           />
         </div>
       </section> */}
-      <section className="h-screen mt-20 w-screen">
+      <section className="mt-20">
         <Glimpses />
       </section>
       <section id="meet" >
         <Meet />
       </section>
 
-      <section id="events" className="h-screen flex items-center justify-center w-screen">
+      <section id="events" className="flex items-center justify-center">
       <span className="text-5xl text-center  text-white font-bold">
           Events Coming Soon...
         </span>
