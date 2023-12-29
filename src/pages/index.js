@@ -34,7 +34,7 @@ export default function Home() {
         <About />
       </section>
 
-      <section className="h-screen mt-20 w-screen">
+      <section className="mt-20">
         <Glimpses />
       </section>
 
