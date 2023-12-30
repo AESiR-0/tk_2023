@@ -26,7 +26,7 @@ return (
     <FaBars/>
     </div>
 
-    <ul className={`md:flex md:items-center md:pb-0 pb-12 bg-white absolute md:static bg-white  left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
+    <ul className={`md:flex md:items-center md:pb-0 pb-12 bg-white  md:static bg-white  left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
       {
         Links.map((link)=>(
           <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7'>
