@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Meet() {
   return (
-    <div className='min-h-screen overlapping-section-3 w-full flex py-20 my-20'>
+    <div className='min-h-screen overlapping-section-3 w-full flex py-20 my-40'>
 
     <section className=" w-full min-h-screen   px-6 md:px-12 xl:px-32">
             <h2 className="text-4xl font-bold md:text-6xl sm:text-5xl  max-w-l uppercase text-center mb-24 ">Meet our Team</h2>

@@ -15,6 +15,7 @@ export default function Glimpses() {
               <div className="gallery-item">
               <div className="content">
               <img
+              key={src}
                 src={src}
                 className="card-glimpses"
               />
