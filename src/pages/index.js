@@ -108,14 +108,14 @@ export default function Home() {
           />
         </div>
       </section> */}
-      <section className="mt-20">
+      <section className=" overlapping-section-2">
         <Glimpses />
       </section>
       <section id="meet" >
         <Meet />
       </section>
 
-      <section id="events" className="flex items-center justify-center">
+      <section id="events" className="flex overlapping-section-3 mb-40 items-center justify-center">
       <span className="text-5xl text-center  text-white font-bold">
           Events Coming Soon...
         </span>

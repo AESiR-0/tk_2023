@@ -74,6 +74,7 @@ background: transparent;
 *::selection{
   background-color: whitesmoke;
   color: black;
+  overflow-y: scroll;
 }
 
 body {
@@ -86,6 +87,7 @@ body {
     rgb(var(--background-start-rgb));
     overflow-x: hidden;
     cursor:none;
+    position: relative;
 
 }
 
@@ -135,13 +137,13 @@ body {
 
 
 
-
 :root {
   --card-height: 300px;
   --card-width: calc(var(--card-height) / 1.5);
 }
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -346,13 +348,27 @@ body {
     grid-template-columns: repeat(1, minmax(50%, 1fr));
     margin-top: auto;
   }
+  
+.overlapping-section{
+  position: relative;
+  top: -100px;
+}
+
+.overlapping-section-2{
+  position: relative;
+  top: 400px;
+}
+
+.overlapping-section-3{
+  position: relative;
+  top: 1000px;}
+
   .cursor{
     display:none;
   }
 }
 
 .about{
-
+  overflow: scroll;
   line-height: 1.3;
-
 }
